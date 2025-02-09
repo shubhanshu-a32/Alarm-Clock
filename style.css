@@ -1,0 +1,48 @@
+* {
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.time-display {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+/* Alarm setting styling */
+.alarm-setting {
+    margin: 20px 0;
+}
+
+.alarm-setting input {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.alarm-setting button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#stop-alarm {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Alarms list (if you want to list active alarms) */
+#alarms-list {
+    margin-top: 20px;
+}
